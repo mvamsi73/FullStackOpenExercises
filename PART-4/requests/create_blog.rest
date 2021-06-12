@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/bloges/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im12YW1zaSIsImlkIjoiNjBjNDUxNTcxOGVkZDEzZDk0ZmM5ZTRiIiwiaWF0IjoxNjIzNDgzOTU1fQ.taQfxlRioglfkdm5BlTrki7fJ-bryC9QrEJeOhtiJH4
+
+{
+    "title": "Stranger Things 3",
+    "author": "Author",
+    "url": "www.netflix.com",
+    "likes": 1000,
+    "userId":"60c4515718edd13d94fc9e4b"
+}
